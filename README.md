@@ -88,12 +88,12 @@ The `train-*` and `dev-*` directories should contain the training and validation
 Encode LibriSpeech using the HuBERT-Discrete model and `encode.py` script:
 
 ```
-usage: encode.py [-h] [--extension EXTENSION] {soft,discrete} in-dir out-dir
+usage: encode.py [-h] [--extension EXTENSION] discrete in-dir out-dir
 
 Encode an audio dataset.
 
 positional arguments:
-  {soft,discrete}       available models (HuBERT-Soft or HuBERT-Discrete)
+  discrete              select HuBERT-Discrete model.
   in-dir                path to the dataset directory.
   out-dir               path to the output directory.
 
